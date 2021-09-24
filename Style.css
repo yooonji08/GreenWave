@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* 모든 페이지의 스타일 시트 */
+
+/* 모든 페이지의 폰트 설정 */
+header, section, main, footer {
+    font-family: Roboto;
+    font-style: normal;
+}
+/* 모든 페이지의 하이퍼링크 밑줄 없애기 */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+/* Headline / 제목 */
+.Title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+/* Headline / 소제목 */
+.MiniTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Body / 본문 */
+.MainText {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+/* Body / 각주 */
+.FootNote {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* Button Auto Layout */
+.Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    
+    position: absolute;
+
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+}
+/* Button Inside Auto Layout */
+.ButtonInside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+/* 버튼의 텍스트 부분 */
+.ButtonText_Style {
+    position : static;
+    height: 19px;
+    left: 16px;
+    top: 10px;        
+}
+/* Top */
+#Top {
+    position: fixed;
+    width: 1440px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 1);
+}
+/* Logo 1 */
+#Logo {
+    position: absolute;
+    width: 128px;
+    height: 99.72px;
+    left: 656px;
+    top: 6px;
+    background: url(Logo.png);
+}
+/* SubNavigation */
+#SubNavigation {
+    position: absolute;
+    width: 500px;
+    left: 985px;
+    top: 62px;
+}
+/* 로그인, 마이페이지, 장바구니, 고객센터, 돋보기  */
+.SubNavigation_Style {
+    padding-left: 23px;
+    color: #9D9D9D;    
+}
+/* MainNavigation */
+#MainNavigatoin {
+    position: fixed;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 106px;
+    /*overflow-y: scroll;*/
+    
+    background: rgba(255, 255, 255, 0.5);
+}
+/* MainNavigation */
+.MainNavigation_Group {
+    position: absolute;
+    width: 1030px;
+    height: 23px;
+    left: 205px;
+    top: 20px;
+}
+/* 카테고리, 랭킹, 사회적가치, 친환경기업관, 친환경보호관, 챌린지 */
+.MainNavigation_Style {
+    padding-left: 101px;
+    color: #0B312A;
+}
+/* Line 1 */
+#Line1 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Line 2 */
+#Line2 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 53px;
+
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Box */
+#Box {
+    position: absolute;
+    width: 1204px;
+    height: 425px;
+    left: 118px;
+    top: 92px;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+}
+/* Box내의 이미지 위치 */
+#BoxImage {
+    position: absolute;
+    width: 525.76px;
+    height: 270px;
+    left: 339px;
+    top: 51px;
+    
+    background: url(Ol?-Gardening-Together.png);
+}
+/* Search */
+#Search {
+    position: absolute;
+    width: 1440px;
+    height: 53px;
+    left: 0px;
+    top: 353px;    
+}
+/* SelectMenu */
+#SelectMenu {
+    position: absolute;
+    width: 210px;
+    height: 14px;
+    left: 118px;
+    top: 20px;
+}
+/* Pagebar */
+#Pagebar {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 1528px;    
+}
+/* Page 버튼 */
+.Page {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 41px;
+    border-radius:23px;
+}
+/* PageText 버튼 내의 숫자&그림 */
+.PageText {
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+}
+/* Page 선택 안했을 때의 기존 버튼 스타일 */
+.PageStyle {
+    border: 0.5px solid #9D9D9D;
+    box-sizing: border-box;
+    background: rgba(157, 157, 157, 0.1);
+}
+/* Footer */
+#Footer {
+    position: absolute;
+    width: 1440px;
+    height: 252px;
+    left: 0px;
+    top: 1644px;
+}
+/* Footer 텍스트 배치 */
+.FooterText {
+    position: absolute;
+    height: 14px;
+    top: 72px;
+}
+/* Footer 정보 배치 */
+.FooterInfo {
+    position: absolute;
+    height: 70px;
+    top: 140px;
+}
