@@ -72,7 +72,7 @@ a:active {
 }
 /* Top */
 #Top {
-    position: fixed;
+    position: absolute;
     width: 1440px;
     height: 106px;
     left: 0px;
@@ -103,7 +103,7 @@ a:active {
 }
 /* MainNavigation */
 #MainNavigatoin {
-    position: fixed;
+    position: absolute;
     width: 1440px;
     height: 70px;
     left: 0px;
@@ -162,8 +162,6 @@ a:active {
     height: 270px;
     left: 339px;
     top: 51px;
-    
-    background: url(Ol?-Gardening-Together.png);
 }
 /* Search */
 #Search {
@@ -199,7 +197,6 @@ a:active {
 }
 /* PageText 버튼 내의 숫자&그림 */
 .PageText {
-    /*display: flex;*/
     align-items: center;
     text-align: center;
 }
