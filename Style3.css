@@ -1,0 +1,606 @@
+@charset "utf-8";
+/* ��� �������� ��Ÿ�� ��Ʈ */
+
+/* ��� �������� ��Ʈ ���� */
+header, section, main, footer {
+    font-family: Roboto;
+    font-style: normal;
+    list-style: none;
+}
+/* ��� �������� �����۸�ũ ���� ���ֱ� */
+a:link {
+    text-decoration: none;
+}
+/* a:visited {
+    text-decoration: none;
+} */
+/* a:hover {
+    text-decoration: none;
+} */
+a:active {
+    text-decoration: none;
+}
+/* Headline / ���� */
+.Title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+/* Headline / ������ */
+.MiniTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Body / ���� */
+.MainText {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+/* Body / ���� */
+.FootNote {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* Button Auto Layout */
+/* .Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    
+    position: absolute;
+    background: rgba(157, 157, 157, 0.1);
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+} */
+/* Button Inside Auto Layout */
+/* .ButtonInside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+/* .ButtonText_Style {
+    position : static;
+    height: 19px;
+    left: 16px;
+    top: 10px;        
+} */ */
+
+
+/* Top */
+#Top {
+
+    width: 1440px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 1);
+}
+/* Logo 1 */
+#Logo {
+    position: absolute;
+    width: 128px;
+    height: 99.72px;
+    left: 656px;
+    top: 6px;
+    background: url(Logo.png);
+}
+/* SubNavigation */
+#SubNavigation {
+    position: absolute;
+    width: 500px;
+    left: 985px;
+    top: 62px;
+}
+/* �α���, ����������, ��ٱ���, ��������, ������  */
+.SubNavigation_Style {
+    padding-left: 23px;
+    color: #9D9D9D;    
+}
+/* MainNavigation */
+#MainNavigatoin {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 106px;
+    /*overflow-y: scroll;*/
+    
+    background: rgba(255, 255, 255, 0.5);
+}
+/* MainNavigation */
+.MainNavigation_Group {
+    position: absolute;
+    width: 1030px;
+    height: 23px;
+    left: 205px;
+    top: 20px;
+}
+/* ī�װ���, ��ŷ, ��ȸ����ġ, ģȯ������, ģȯ�溸ȣ��, ç���� */
+.MainNavigation_Style {
+    padding-left: 101px;
+    color: #0B312A;
+}
+/* Line 1 */
+#Line1 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Line 2 */
+#Line2 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 53px;
+
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Box */
+#Box {
+    position: absolute;
+    width: 1204px;
+    height: 425px;
+    left: 118px;
+    top: 92px;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+}
+/* Box���� �̹��� ��ġ */
+#BoxImage {
+    position: absolute;
+    width: 525.76px;
+    height: 270px;
+    left: 339px;
+    top: 51px;
+    
+    background: url(Ol?-Gardening-Together.png);
+}
+/* Search */
+#Search {
+    position: absolute;
+    width: 1440px;
+    height: 53px;
+    left: 0px;
+    margin-top: 30px;    
+}
+/* SelectMenu */
+#SelectMenu {
+    position: absolute;
+    width: 210px;
+    height: 14px;
+    left: 118px;
+    top: 15px;
+}
+/* Pagebar */
+#Pagebar {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 1290px;    
+}
+/* Page ��ư */
+.Page {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 41px;
+    border-radius:23px;
+}
+/* PageText ��ư ���� ����&�׸� */
+.PageText {
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Page ���� ������ ���� ���� ��ư ��Ÿ�� */
+.PageStyle {
+    border: 0.5px solid #9D9D9D;
+    box-sizing: border-box;
+    background: rgba(157, 157, 157, 0.1);
+}
+/* Footer */
+#Footer {
+    position: absolute;
+    width: 1440px;
+    height: 252px;
+    left: 0px;
+    bottom: 0px;
+    top: 1800px;
+}
+/* Footer �ؽ�Ʈ ��ġ */
+.FooterText {
+    position: absolute;
+    height: 14px;
+    top: 72px;
+}
+/* Footer ���� ��ġ */
+.FooterInfo {
+    position: absolute;
+    height: 70px;
+    top: 140px;
+}
+
+
+
+
+
+/* 선택한 카테고리 */
+#ShoppingMenuFrame > span{
+    position:absolute; 
+    left:662px; 
+    top:200px; 
+    color: #0B312A; 
+}
+/* 선택한 카테고리 상세 선택 */
+.click_category{
+    margin-top: 250px;
+}
+/* 큰 카테고리 & 세부 카테고리 */
+.category1{
+    display: flex;
+    margin-left: 117px;
+} 
+.category2 {
+    display: flex;
+    margin-left: 117px;
+    margin-top:10px;
+} 
+/* 상세 선택 (공통사항)*/
+.click {
+    display: flex;
+    float: left;
+    text-align: center;
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+    margin-right: 15px;
+}
+.click > a{
+    color: #9D9D9D;
+    text-align: center;
+    padding: 9px 12px;
+}
+/* 큰 카테고리 상세 선택 */
+.min_category1{
+    margin-left: 80px;
+    margin-top: 7px;
+}
+.min_category1 > li:hover a{
+    color:#64B276;
+    font-weight: bold;
+}
+/* 세부 카테코리 상세 선택 */
+.min_category2{
+    margin-left: 45px;
+    margin-top: 7px;
+}
+.min_category2 > li:hover a{
+    color:#5DC0C9;
+    font-weight: bold;
+}
+
+.select_btn {
+    display: flex;
+    margin-top:14px;
+    margin-left: 370px;
+}
+.select_btn > li{
+    margin-right:25px;
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+    padding: 10px 12px;
+}
+.select_btn > li:hover >a{
+    color:#5DC0C9;
+    font-weight: bold;
+}
+.select_btn > li> a{
+    color: #9D9D9D;
+}
+
+.select_con{
+    display: flex;
+    margin-left:180px;
+}
+.select_con li{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.select_con > li > a{
+    color: #9D9D9D;
+    font-weight:10px
+}
+.select_con > li:hover a{
+    color:#64B276;
+    font-weight: bold;
+}
+.div.Button.Button_Style > li:hover a{
+    color:#64B276;
+}
+
+
+/* 본문 */
+/* 상품 목록 나열 */
+/* 1 */
+#Group1 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group2 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group2 ul li{
+    margin-right: 15px;
+}
+#Group2 ul li p{
+    margin: 0px;
+}
+/* 2 */
+#Group3 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group4 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group4 ul li{
+    margin-right: 15px;
+}
+#Group4 ul li p{
+    margin: 0px;
+}
+/* 3 */
+#Group5 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group6 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group6 ul li{
+    margin-right: 15px;
+}
+#Group6 ul li p{
+    margin: 0px;
+}
+/* 4 */
+#Group7 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group8 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group8 ul li{
+    margin-right: 15px;
+}
+#Group8 ul li p{
+    margin: 0px;
+}
+/* 5 */
+#Group9 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group10 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group10 ul li{
+    margin-right: 15px;
+}
+#Group10 ul li p{
+    margin: 0px;
+}
+/* 6 */
+#Group11 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group12 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group12 ul li{
+    margin-right: 15px;
+}
+#Group12 ul li p{
+    margin: 0px;
+}
+/* 7 */
+#Group13 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group14 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group14 ul li{
+    margin-right: 15px;
+}
+#Group14 ul li p{
+    margin: 0px;
+}
+/* 8 */
+#Group15 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group16 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group16 ul li{
+    margin-right: 15px;
+}
+#Group16 ul li p{
+    margin: 0px;
+}
+/* 9 */
+#Group17 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group18 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group18 ul li{
+    margin-right: 15px;
+}
+#Group18 ul li p{
+    margin: 0px;
+}
+/* 10 */
+#Group19 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group20 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group20 ul li{
+    margin-right: 15px;
+}
+#Group20 ul li p{
+    margin: 0px;
+}
+/* 11 */
+#Group21 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group22 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group22 ul li{
+    margin-right: 15px;
+}
+#Group22 ul li p{
+    margin: 0px;
+}
+/* 12 */
+#Group23 ul{
+    margin-top: 60px;
+    padding: 0px;
+}
+#Group24 ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Group24 ul li{
+    margin-right: 15px;
+}
+#Group24 ul li p{
+    margin: 0px;
+}
+
+/* 하트버튼 */
+.like-button{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-right: 22px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    z-index: 2;
+    left: 85%;
+    top: 10px;
+    }
+.heart{
+    margin:5px;
+}
+
+/* 현황표시 */
+/* .new_button{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+    left: 10px;
+} */
+/* 신상품.Best.당일발송.Hot*/
+.New {
+    position: absolute;
+    padding: 5px;
+    margin:8px;
+    background: #B48FD1;
+    border-radius: 10px;
+}
+.alpha{
+    margin:0 3px 0 3px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: ivory;
+}
+.best_button{
+    position: absolute;
+    padding: 2px;
+    background: red;
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.express_button{
+    position: absolute;
+    padding: 2px;
+    background: #6EA587;;
+    margin-left: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.hot_button{
+    position: absolute;
+    padding: 2px;
+    background:rgba(86, 193, 218, 0.8);
+    margin-left: 5px;
+    color: #FFFFFF;  
+    font-weight: bold;
+  
+}

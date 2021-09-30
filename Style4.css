@@ -1,0 +1,373 @@
+@charset "utf-8";
+/* ��� �������� ��Ÿ�� ��Ʈ */
+
+/* ��� �������� ��Ʈ ���� */
+header, section, main, footer {
+    font-family: Roboto;
+    font-style: normal;
+    list-style: none;
+}
+/* ��� �������� �����۸�ũ ���� ���ֱ� */
+a:link {
+    text-decoration: none;
+}
+/* a:visited {
+    text-decoration: none;
+} */
+/* a:hover {
+    text-decoration: none;
+} */
+a:active {
+    text-decoration: none;
+}
+/* Headline / ���� */
+.Title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+/* Headline / ������ */
+.MiniTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Body / ���� */
+.MainText {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+/* Body / ���� */
+.FootNote {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* Button Auto Layout */
+.Button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    
+    position: absolute;
+    background: rgba(157, 157, 157, 0.1);
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+}
+/* Button Inside Auto Layout */
+.ButtonInside {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+/* ��ư�� �ؽ�Ʈ �κ� */
+.ButtonText_Style {
+    position : static;
+    height: 19px;
+    left: 16px;
+    top: 10px;        
+}
+/* Top */
+#Top {
+
+    width: 1440px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 1);
+}
+/* Logo 1 */
+#Logo {
+    position: absolute;
+    width: 128px;
+    height: 99.72px;
+    left: 656px;
+    top: 6px;
+    background: url(Logo.png);
+}
+/* SubNavigation */
+#SubNavigation {
+    position: absolute;
+    width: 500px;
+    left: 985px;
+    top: 62px;
+}
+/* �α���, ����������, ��ٱ���, ��������, ������  */
+.SubNavigation_Style {
+    padding-left: 23px;
+    color: #9D9D9D;    
+}
+/* MainNavigation */
+#MainNavigatoin {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 106px;
+    /*overflow-y: scroll;*/
+    
+    background: rgba(255, 255, 255, 0.5);
+}
+/* MainNavigation */
+.MainNavigation_Group {
+    position: absolute;
+    width: 1030px;
+    height: 23px;
+    left: 205px;
+    top: 20px;
+}
+/* ī�װ���, ��ŷ, ��ȸ����ġ, ģȯ������, ģȯ�溸ȣ��, ç���� */
+.MainNavigation_Style {
+    padding-left: 101px;
+    color: #0B312A;
+}
+/* Line 1 */
+#Line1 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Line 2 */
+#Line2 {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 53px;
+
+    border-top: 0.3px solid #9D9D9D;
+}
+/* Box */
+#Box {
+    position: absolute;
+    width: 1204px;
+    height: 425px;
+    left: 118px;
+    top: 92px;
+    border: 1px solid #9D9D9D;
+    box-sizing: border-box;
+}
+/* Box���� �̹��� ��ġ */
+#BoxImage {
+    position: absolute;
+    width: 525.76px;
+    height: 270px;
+    left: 339px;
+    top: 51px;
+    
+    background: url(Ol?-Gardening-Together.png);
+}
+/* Search */
+#Search {
+    position: absolute;
+    width: 1440px;
+    height: 53px;
+    left: 0px;
+    margin-top: 30px;    
+}
+/* SelectMenu */
+#SelectMenu {
+    position: absolute;
+    width: 210px;
+    height: 14px;
+    left: 118px;
+    top: 15px;
+}
+/* Pagebar */
+#Pagebar {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 1290px;    
+}
+/* Page ��ư */
+.Page {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 41px;
+    border-radius:23px;
+}
+/* PageText ��ư ���� ����&�׸� */
+.PageText {
+    /*display: flex;*/
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Page ���� ������ ���� ���� ��ư ��Ÿ�� */
+.PageStyle {
+    border: 0.5px solid #9D9D9D;
+    box-sizing: border-box;
+    background: rgba(157, 157, 157, 0.1);
+}
+/* Footer */
+#Footer {
+    position: absolute;
+    width: 1440px;
+    height: 252px;
+    left: 0px;
+    bottom: 0px;
+    top: 1650px;
+}
+/* Footer �ؽ�Ʈ ��ġ */
+.FooterText {
+    position: absolute;
+    height: 14px;
+    top: 72px;
+}
+/* Footer ���� ��ġ */
+.FooterInfo {
+    position: absolute;
+    height: 70px;
+    top: 140px;
+}
+
+
+
+
+
+/* 선택한 카테고리 */
+#ShoppingMenuFrame > span{
+    position:absolute; 
+    left:662px; 
+    top:200px; 
+    color: #0B312A; 
+}
+.category > li {
+    margin-left: 117px;
+    margin-top:130px;
+}
+.category2 > li{
+    margin-left: 117px;
+    margin-top:35px;
+}
+
+.select_btn {
+    display: flex;
+    margin-top:14px;
+    margin-left: 370px;
+}
+.select_btn > li{
+    margin-right:25px;
+    background: rgba(157, 157, 157, 0.1);
+    border-radius: 19px;
+    padding: 10px 12px;
+}
+.select_btn > li:hover >a{
+    color:#5DC0C9;
+}
+.select_btn > li> a{
+    color: #9D9D9D;
+}
+
+.select_con{
+    display: flex;
+    margin-left:120px;
+}
+.select_con li{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.select_con > li > a{
+    color: #9D9D9D;
+    font-weight:10px
+}
+.select_con > li:hover a{
+    color:#64B276;
+}
+.div.Button.Button_Style > li:hover a{
+    color:#64B276;
+}
+
+
+/* 본문 */
+/* 상품 판매 페이지로 연결 */
+.sellpage{
+    width: 1200px;
+    height: 1300px;
+    background: #9D9D9D;
+    color: #9D9D9D;
+    margin-top: 100px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+/* 리뷰 박스 */
+.boxes{
+    margin-top: 50px;
+    margin-left:130px;
+    height: 80px;
+    width: 1200px;
+}
+.review_box{
+    width: 200px; 
+    height: 70px;
+    background: #9D9D9D;
+    border-radius: 10px;
+    margin: 0px;
+    float: left;
+}
+.checking{
+    position: absolute;
+    width:30px;
+    height:28px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.review{
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+/* 가격 나타내는 부분 */
+.price_box{
+    position: absolute;
+    width: 700px;
+    height: 70px;
+    background: #9D9D9D;
+    border-radius: 10px;
+    margin-left: 250px;
+    list-style: none;
+    float: left;
+}
+.price_box  ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px;
+    height: 70px;
+}
+.price_box p{
+    margin-top: 20px;
+}
+.price_box ul span{
+    margin-right: 15px;
+}
+/* 구매하기 버튼 */
+.buying_box{
+    float: right;
+    text-align: center;
+    background: #9D9D9D;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+}
+.buy{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
