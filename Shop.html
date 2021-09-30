@@ -138,6 +138,20 @@
             }
             
         </style>
+        <script>
+            /* 하트를 누르면 이미지와 숫자가 바뀌고, 다시 취소하면 원래대로 돌아가는 스크립트 */
+            heart = 0;
+            function toggleImg() {
+                if (heart == 0) {
+                    heart = 1;
+                    document.getElementById('like').src = "img/rlove.png";
+                }
+                else {
+                    heart = 0;
+                    document.getElementById('like').src = "img/wlove.png";
+                };
+            };
+        </script>
     </head>
     <body>
         <!-- 로고 & 서브네비게이션 -->
@@ -228,7 +242,7 @@
                         </div>
                             <div class="like-button">
                                 <div class="heart">
-                                    <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                    <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                                 </div>
                             </div>
                             <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -247,7 +261,7 @@
                     <div id="Group3">
                             <div class="like-button">
                                 <div class="heart">
-                                    <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                    <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                                 </div>
                             </div>
                             <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -266,7 +280,7 @@
                     <div id="Group5">
                             <div class="like-button">
                                 <div class="heart">
-                                    <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                    <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                                 </div>
                             </div>
                             <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -285,7 +299,7 @@
                     <div id="Group7">
                             <div class="like-button">
                                 <div class="heart">
-                                    <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                    <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                                 </div>
                             </div>
                             <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -308,7 +322,7 @@
                     </div>
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -327,7 +341,7 @@
                 <div id="Group11">
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -351,7 +365,7 @@
                     </div>
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -373,7 +387,7 @@
                 <div id="Group15">
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -393,7 +407,7 @@
                 <div id="Group17">
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -412,7 +426,7 @@
                 <div id="Group19">
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -431,7 +445,7 @@
                 <div id="Group21">
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
@@ -453,7 +467,7 @@
                     </div>
                         <div class="like-button">
                             <div class="heart">
-                                <img src="img/wlove.png" onmouseover="this.src='img/rlove.png'" onmouseout="this.src='img/rlove.png'" width="19px" height="17px">
+                                <img onclick="toggleImg()" name="like" id="like" src="img/wlove.png" width="19px" height="17px">
                             </div>
                         </div>
                         <a href="Specific.html"><img src="img/gray.png" width="256" height="256"></a>
