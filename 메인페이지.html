@@ -179,48 +179,43 @@ text-align: center;
 color: #9D9D9D;
       }
 
-      .slidebox {max-width:1000px;margin:0 auto;position:relative; }
-.slidebox .slidelist {position:relative;white-space:nowrap;font-size:0;overflow:hidden;top: 1450px;}
-.slidebox .slidelist .slideitem {position:relative;display:inline-block;vertical-align:middle;background-color:#fff;width:33%;transition:all 1s;}
-.slidebox .slidelist .slideitem > a {display:block;width:auto;position:relative;}
-.slidebox .slidelist .slideitem > a img {max-width:100%;}
+ .c1{
+        position: absolute;
+        width: 210px;
+        height: 285px;
+        left: 90px;
+        top: 1450px;
+        background: #9D9D9D;
+      }
 
-.slidebox .slide-control [class*="control"] label {position:absolute;top:50%;transform:translateY(-50%);padding:20px;border-radius:50%;cursor:pointer; top: 1550px;}
-.slidebox .slide-control [class*="control"] label.prev {left:-50px; color :grey; background:#ffffff url('img/left.png') center center / 100% no-repeat; top: 1550px;}
-.slidebox .slide-control [class*="control"] label.next {right:-50px; color :grey;  background:#ffffff url('img/right.png') center center / 100% no-repeat; top: 1550px;}
+      .c2{
+        position: absolute;
+        width: 210px;
+        height: 285px;
+        left: 439px;
+        top: 1450px;
+        background: #9D9D9D;
+      }
 
-[name="slide"] {display:none; top: 1600px;}
-#slide01:checked ~ .slidelist .slideitem {left:0;}
-#slide02:checked ~ .slidelist .slideitem {left:-33%;}
-#slide03:checked ~ .slidelist .slideitem {left:-66%;}
-#slide04:checked ~ .slidelist .slideitem {left:-99%;}
-#slide05:checked ~ .slidelist .slideitem {left:-132%;}
-#slide06:checked ~ .slidelist .slideitem {left:-165%;}
+      .c3{
+        position: absolute;
+        width: 210px;
+        height: 285px;
+        left: 775px;
+        top: 1450px;
+        background: #9D9D9D;
+      }
 
-.slide-control [class*="control"] {display:none; top: 1600px;}
-#slide01:checked ~ .slide-control .control01 {display:block;}
-#slide02:checked ~ .slide-control .control02 {display:block;}
-#slide03:checked ~ .slide-control .control03 {display:block;}
-#slide04:checked ~ .slide-control .control04 {display:block;}
-#slide05:checked ~ .slide-control .control05 {display:block;}
-#slide06:checked ~ .slide-control .control06 {display:block;}
+      .c4{
+        position: absolute;
+        width: 210px;
+        height: 285px;
+        left: 1111px;
+        top: 1450px;
+        background: #9D9D9D;
+      }
 
-.챌린지배너 {
-    top: 1600px;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 7%;
-    overflow: hidden;
-   
-    
-}
 
-.slideitem {
-  -webkit-animation: moveSlideshow 5s linear infinite; 
-  -moz-animation: moveSlideshow 5s linear infinite;
-  -o-animation: moveSlideshow 5s linear infinite;
-}
 
 img.mini{
     position: absolute;
@@ -419,63 +414,11 @@ color: #0B312A;
          <a class="챌린지줄글">
              <p>지구를 살리는 챌린지, 함께 참여해보아요!</p></a>
 
-             <div class="slidebox">
-                <input type="radio" name="slide" id="slide01" checked>
-                <input type="radio" name="slide" id="slide02">
-                <input type="radio" name="slide" id="slide03">
-                <input type="radio" name="slide" id="slide04">
-                <input type="radio" name="slide" id="slide05">
-                <input type="radio" name="slide" id="slide06">
-                <ul class="slidelist">
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지1.jpg"></a>
-                    </li>
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지2.png"></a>
-                    </li>
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지3.png"></a>
-                    </li>
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지1.jpg"></a>
-                    </li>
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지2.png"></a>
-                    </li>
-                    <li class="slideitem">
-                        <a><img class="챌린지배너" src="img/챌린지3.png"></a>
-                    </li>
-                    
-                </ul>
-                <div class="slide-control">
-                    <div class="control01">
-                        <label for="slide04" class="prev"></label>
-                        <label for="slide02" class="next"></label>
-                    </div>
-                    <div class="control02">
-                        <label for="slide01" class="prev"></label>
-                        <label for="slide03" class="next"></label>
-                    </div>
-                    <div class="control03">
-                        <label for="slide02" class="prev"></label>
-                        <label for="slide04" class="next"></label>
-                    </div>
-                    <div class="control04">
-                        <label for="slide03" class="prev"></label>
-                        <label for="slide05" class="next"></label>
-                    </div>
-                    <div class="control05">
-                        <label for="slide04" class="prev"></label>
-                        <label for="slide06" class="next"></label>
-                    </div>
-                    <div class="control06">
-                        <label for="slide05" class="prev"></label>
-                        <label for="slide01" class="next"></label>
-                    </div>
-                </div>
-             </div>
-            </div>
-
+        
+        <a class="c1"></img src="img/메인.jpg"></a>
+        <a class="c2"></img src="img/메인.jpg"></a>
+        <a class="c3"></img src="img/메인.jpg"></a>
+        <a class="c4"></img src="img/메인.jpg"></a>    
         <!--미니배너-->
         <a href="https://shop.hansalim.or.kr/shopping/story/storyView.do?HSLIM_STORY_ID=NE202108310001"><img src="img/미니배너.jpg" class="mini">
         </a>
